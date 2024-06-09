@@ -60,18 +60,14 @@ let opcion2=document.getElementById("opcion2");
 let opcion3=document.getElementById("opcion3");
 
 opcion1.onclick=()=>{
-    fetch('/data.json')
-        .then((resp)=>resp.json())
-        .then((data)=>{
-            let cantidadDeUsuarios=data.usuarios.length;
-            swal.fire({
-                text: `Actualmente hay ${cantidadDeUsuarios} usuarios en nuestro sistema`,
-                icon: "info",
-                customClass:{
-                    confirmButton:'botonMenu',
-                },
-            });
-        });
+    let cantidadDeUsuarios = JSON.parse(localStorage.getItem("Lista de Usuarios")).length;
+    swal.fire({
+        text: `Actualmente hay ${cantidadDeUsuarios} usuarios en nuestro sistema`,
+        icon: "info",
+        customClass:{
+            confirmButton:'botonMenu',
+        },
+    });
 };
 
 
