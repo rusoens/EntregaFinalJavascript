@@ -1,0 +1,71 @@
+h1{
+    font-size: 40px;
+    color: white;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#logo{
+    height: 200px;
+}
+
+#containerMenu{
+    background-image: linear-gradient(45deg, darkblue, blue, darkblue, blue, darkblue);
+    vertical-align: middle;
+    height: 100vh;
+    width: 70vh;
+}
+
+input{
+    font-size: 20px;
+}
+
+.botonMenu{
+    font-size: 20px !important;
+    text-decoration: none !important;
+    background: linear-gradient(darkblue, blue) !important;
+    padding: 5px !important;
+    color: white !important;
+    border-radius: 10px !important;
+    border: solid #B7B2EF 1px !important;
+    width: 300px !important;
+}
+
+.botonMenu:hover{
+    cursor: pointer !important;
+    background: linear-gradient(darkgreen, lightgreen) !important;
+}
+
+.botonCancelar{
+    font-size: 20px !important;
+    text-decoration: none !important;
+    background: linear-gradient(black, gray) !important;
+    padding: 5px !important;
+    color: white !important;
+    border-radius: 10px !important;
+    border: solid black 1px !important;
+    width: 300px !important;
+}
+
+.botonCancelar:hover{
+    cursor: pointer !important;
+    background: gray !important;
+}
+

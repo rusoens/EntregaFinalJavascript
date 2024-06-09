@@ -1,0 +1,7 @@
+{"usuarios":
+    [
+        {"DNI": 33665140, "Apellido": "Schiller", "Nombre": "Ezequiel", "Edad": 36, "Tasa": 1},
+        {"DNI": 33016244, "Apellido": "Messi", "Nombre": "Lionel", "Edad": 37, "Tasa": 0.2},
+        {"DNI": 22432311, "Apellido": "Galperín", "Nombre": "Marcos", "Edad": 57, "Tasa": 2}
+    ]
+}
